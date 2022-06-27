@@ -32,8 +32,9 @@ console.error(b)
 
 SEL=100;
 SUCRE=80;
-console.error("nous avons du sel en q de" + SEL + ". Nous avons du seucre en q de" + SUCRE)
+console.error("nous avons du sel en q de" + SEL + ". Nous avons du seucre en q de" + SUCRE);
 
-SEL=80;
-SUCRE=100;
-console.error("nous avons du sel en q de" + SEL + ". Nous avons du seucre en q de" + SUCRE)
+DIFF= SEL-SUCRE;
+SEL= SUCRE;
+SUCRE= SEL+DIFF;
+console.error("nous avons du sel en q de" + SEL + ". Nous avons du seucre en q de" + SUCRE);
