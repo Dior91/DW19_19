@@ -52,3 +52,23 @@ nbre=prompt("veuillez entrer un nombre ?");
  {
     console.error("le nombre est impair")
  }
+
+/*EXO 3
+* Initialiser une variable avec votre prenom
+* prenom=yoel
+* vous demandez à l'utilisateur son prenom
+* si le prenom == à votre prenom alors on ecrit dans la console
+* sympa vous avez le même prenom que moi
+* si non rien ...*/
+
+monprenom = "dior";
+votreprenom = prompt("veuillez entrer votre prenom")
+if (monprenom == votreprenom) {
+console.error("Sympa, vous avez le même prenom que moi")
+}
+
+else 
+{
+    console.error(votreprenom)
+}
+
