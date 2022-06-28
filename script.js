@@ -68,16 +68,10 @@ prixttc = (parseInt(prix))*1.2;
 
 console.error("l'article vaut " + prixttc + "euros TTC");
 
+/* exo4
+1. afficher dans la console aujourd'hui nous somme le "date du jour"*/
 
-
-
-
-
-
-
-
-
-
-
-
-
+date = new Date();
+console.error("Aujourd'hui nous sommes le " + date );
+jour = getDay()
+Mois = getMonth()
