@@ -59,8 +59,43 @@ for(var i=0;i<100;i++)
  { 
      console.error("table" + i)
 
-     for(var j=0;j<10;j++)
+     for(var j=1;j<10;j++)
  { 
      console.error(i+"*"+j+"="+i*j)
  }
  }
+
+ 
+
+
+ for(var i=1;i<10;i++)
+ { 
+     console.error("table addition de" + i)
+
+     for(var j=1;j<10;j++)
+ { 
+     console.error(i+"+"+j+"="+ (i+j))
+ }
+ }
+
+/**
+ * EXO 5 : Afficher le caractere "*"   100
+ * */
+ 
+for(var i=0;i<100;i++)
+ { 
+     console.error("*")
+ }
+
+ /* EXO 6 Faire un carre d etoile de 5 
+ *   1 *****
+ *   2 *****
+ *   3 *****
+ *   4 *****
+ *   5 *****-*/
+
+ for(var i=1;i<6;i++)
+ { 
+     console.error(i + "*****")
+ }
+ 
