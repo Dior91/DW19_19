@@ -154,11 +154,11 @@ function max(tab) {
 
         if (tab[i]> valeurMax)
         {
-           return valeurMax = tab[i]
+            valeurMax = tab[i]
         }
 
     }
-   
+      return valeurMax
   }
   
   
@@ -170,14 +170,84 @@ function max(tab) {
 
 
 
- /*  EXO 4 : l'élément minimum d'un tableau
+ /* EXO 4 : l'élément minimum d'un tableau*/
+
+
+function min(tab) {
+    valeurMin = tab[0]
+    for (let i=0; i<tab.length ; i++   ) {
+
+        if (tab[i]< valeurMin)
+        {
+            valeurMin = tab[i]
+        }
+
+    }
+     return valeurMin
+  }
+  
+  
+ console.log(min([15,14,47,6,7,3]))
 
 
 
+ /**  EXO 5 : Trouver le premier élément supérieur à 500*/
+
+ //parcourir le tableau avec une boucle for
+ //mettre une condition 
+ //comparer les elements et s'arrêter dès q'un element est superieur à 500
+ // retourner cet element
+ 
+
+ function sup500(tab) {
+ 
+    
+    for (let i=0; i<tab.length ; i++   ) {
+
+        if (tab[i]> 500)
+        {
+         return tab[i]
+        }
+
+    }
+    
+  }
+  
+  
+ console.log(sup500([15,14,570,670,580,3]))
+
+ function sup500(tab,n) {
+ 
+    
+  for (let i=0; i<tab.length ; i++   ) {
+
+      if (tab[i]> n)
+      {
+       return tab[i]
+      }
+
+  }
+  
+}
 
 
+console.log(sup500([15,14,570,670,580,3],600))
 
- *  EXO 5 : Trouver le premier élément supérieur à 500
- *  BONUS : Copier les premiers éléments d'un tableau dont la somme fait au moins 500
+
+ 
+ /*  BONUS : Copier les premiers éléments d'un tableau dont la somme fait au moins 500
  */
+  function sommeSup500(tab) {
+  let result=0
+  for (let i=0; i<tab.length ; i++   ){
+    result=result+tab[i]
 
+    if (result> 500){
+      return tab[i] = a
+    }
+ } 
+ 
+
+}
+
+console.log(sommeSup500([15,14,570,670,580,3]))
