@@ -149,7 +149,7 @@ console.log(moyenneindef([12,14]))
  /*  EXO 3 : 'élément maximum d'un tableau*/
 
 function max(tab) {
-    valeurMax = tab[0]
+   let valeurMax = tab[0]
     for (let i=0; i<tab.length ; i++   ) {
 
         if (tab[i]> valeurMax)
@@ -246,7 +246,7 @@ console.log(sup500([15,14,570,670,580,3],600))
       return tab[i] = a
     }
  } 
- 
+
 
 }
 
